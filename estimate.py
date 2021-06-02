@@ -13,7 +13,7 @@ def monte_carlo(n):
   for i in range(n):
     x=random.random()
     y=random.random()
-    distance=math.sqrt((x-0.5)*2+(y-0.5)*2)
+    distance=math.sqrt((x-0.5)**2+(y-0.5)**2)
     if(distance<=0.5):
       in_the_circle+=1
       total+=1
