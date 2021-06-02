@@ -1,7 +1,6 @@
 import math
 import unittest
 import random
-import random
 def wallis(x):
   pi=1
   for i in range(1,x+1):
